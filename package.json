@@ -1,6 +1,7 @@
 {
-  "name": "nuxt-app",
+  "name": "wallet-dashboard-test",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -10,8 +11,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.12.4",
-    "vue": "latest"
-  },
-  "packageManager": "pnpm@9.1.2+sha1.907f57a52517de34399d66401bf220a549e47b57"
+    "@tanstack/vue-query": ">=5.45.0",
+    "@wagmi/vue": "latest",
+    "nuxt": "^3.11.2",
+    "viem": "latest",
+    "vue": ">=3.4.21",
+    "vue-router": "^4.3.2"
+  }
 }
